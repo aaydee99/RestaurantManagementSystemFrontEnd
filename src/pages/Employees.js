@@ -3,7 +3,7 @@ import EmployeeList from '../components/lists/EmployeesList';
 
 const EmployeesPage = () => {
   return (
-    <div>
+    <div className='employee'>
       <h1>Employees</h1>
       <EmployeeList />
     </div>

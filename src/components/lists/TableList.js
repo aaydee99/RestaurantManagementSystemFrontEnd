@@ -73,7 +73,7 @@ const TableList = () => {
       />
       <ul>
         {tables.map((table) => (
-          <li key={table._id}>
+          <li key={table._id} style={{color: 'black'}}>
             Table {table.tableNumber} - {table.status}
             <div>
               <button onClick={() => handleEdit(table)}>Edit</button>

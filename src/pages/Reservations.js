@@ -3,7 +3,7 @@ import ReservationList from '../components/lists/ReservationList';
 
 const ReservationsPage = () => {
   return (
-    <div>
+    <div className='reservation'>
       <h1>Reservations</h1>
       <ReservationList />
     </div>

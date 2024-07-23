@@ -17,6 +17,7 @@ const EmployeeList = () => {
 
   useEffect(() => {
     fetchEmployees();
+    // console.log(employees)
   }, [fetchEmployees]);
 
   const handleSubmit = async (values) => {
@@ -75,8 +76,7 @@ const EmployeeList = () => {
 
   return (
     <div>
-      <h2>Employees</h2>
-      <button onClick={openModal}>Add Employee</button>
+      <button  style={{width: '100%', display:'flex', alignContent: 'center', justifyContent: 'center'}}onClick={openModal}>Add Employee</button>
       <ModalComponent
         isOpen={isModalOpen}
         onRequestClose={closeModal}
